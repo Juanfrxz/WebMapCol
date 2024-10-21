@@ -9,6 +9,9 @@
     padding: 0px;
     background-position: center;
 }
+h1{
+    text-align: center;
+}
 
 .contenedor {
     margin: 5px;
@@ -22,5 +25,15 @@
     text-align: justify;
     box-shadow: 8px 4px 12px 0px rgba(233, 186, 233, 0.64);
     background-position: center;
+    box-sizing: content-box;
+    display: block;
+    margin: auto;
+    height: auto;
 }
 
+.mapcol{
+    box-sizing: content-box;
+    display: block;
+    margin: auto;
+    height: auto;
+}
