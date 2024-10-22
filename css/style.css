@@ -68,3 +68,9 @@ th, td{
     align-items: center;
     margin: 10px 0;
 }
+
+body {
+    background-image: url('../images/fondo.png'); /* Subimos un nivel y entramos a img */
+    background-size: cover;
+    background-position: center;
+}
