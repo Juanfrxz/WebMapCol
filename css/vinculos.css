@@ -20,7 +20,7 @@ a:active {
 }
 
 a:link, a:visited{
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding: 15px 25px;
     text-align: center;

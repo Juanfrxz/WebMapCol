@@ -3,21 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enlaces a hojas de estilo externas -->
     <link rel="stylesheet" href="css/fuentes.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Título que aparece en la pestaña del navegador -->
     <title>Colombia</title>
 </head>
+<body>
+    <!-- Título principal de la página -->
     <h1 id="TituloPrincipal" >MAPA DE COLOMBIA Y SUS DE DEPARTAMENTOS</h1>
-    <div class="contenedor">La historia de Colombia se remonta a tiempos precolombinos, cuando el territorio estaba habitado por diversas culturas indígenas, entre ellas los muiscas, taironas y quimbayas. Estas sociedades desarrollaron sistemas complejos de agricultura, comercio y organización política. Con la llegada de los españoles en el siglo XVI, el territorio fue colonizado y se convirtió en parte del Virreinato de la Nueva Granada.<br>
-    En este articulo podras encontrar el mapa de Colombia, ademas podras ver los 5 diferentes departamentos mas importantes de colombia: <a href="pages/santander.html" target="_blank">Santander</a>, <a href="pages/antioquia.html" target="_blank">Antioquia</a>, <a href="pages/amazonas.html" target="_blank">Amazonas</a>, <a href="pages/tolima.html" target="_blank">Tolima</a> y <a href="pages/boyaca.html" target="_blank">Boyaca</a>. 
+    
+    <!-- Contenedor principal con texto introductorio e imagen del mapa -->
+    <div class="contenedor">
+        <!-- Párrafo sobre la historia de Colombia -->
+        La historia de Colombia se remonta a tiempos precolombinos, cuando el territorio estaba habitado por diversas culturas indígenas, entre ellas los muiscas, taironas y quimbayas. Estas sociedades desarrollaron sistemas complejos de agricultura, comercio y organización política. Con la llegada de los españoles en el siglo XVI, el territorio fue colonizado y se convirtió en parte del Virreinato de la Nueva Granada.<br>
+        
+        <!-- Párrafo con enlaces a los departamentos -->
+        En este articulo podras encontrar el mapa de Colombia, ademas podras ver los 5 diferentes departamentos mas importantes de colombia: 
+        <a href="pages/santander.html" target="_self">Santander</a>, 
+        <a href="pages/antioquia.html" target="_self">Antioquia</a>, 
+        <a href="pages/amazonas.html" target="_self">Amazonas</a>, 
+        <a href="pages/tolima.html" target="_self">Tolima</a> y 
+        <a href="pages/boyaca.html" target="_self">Boyaca</a>. 
+        
+        <!-- Imagen del mapa de Colombia con áreas clickeables -->
+        <img src="images/mapcolombia.png" alt="MapaColombia" class="mapcol" usemap="#mapcol">
     </div>
-<img src="images/mapcolombia.png" alt="MapaColombia" class="mapcol" usemap="#mapcol">
+
+    <!-- Definición del mapa de imagen con áreas clickeables -->
     <map name="mapcol">
-        <area target="_self" alt="santander" title="Santander" href="pages/santander.html" coords="195,164,198,170,198,176,204,180,210,182,216,180,223,181,226,187,226,193,227,198,232,201,237,204,238,211,238,218,231,217,231,222,230,228,226,231,222,234,217,236,214,240,208,242,205,233,202,238,201,244,196,245,189,245,183,241,179,236,173,234,172,224,186,207,176,215,182,211,193,203,191,195,191,188,194,182" shape="poly">
-        <area target="_self" alt="antioquia" title="Antioquia" href="pages/antioquia.html" coords="106,139,109,146,114,154,110,159,108,166,106,172,104,179,105,186,110,189,118,190,124,190,130,186,135,182,140,175,145,170,151,167,159,166,166,167,171,172,172,180,168,185,171,190,177,187,175,194,176,200,182,198,189,196,192,201,187,204,182,207,178,212,175,217,171,224,169,230,167,236,167,242,162,246,156,247,150,251,145,254,141,248,135,246,133,253,127,253,120,252,117,246,118,238,111,233,105,231,97,231,95,225,92,219,88,210,95,206,101,202,104,196,99,191,94,187,90,183,86,179,86,171,91,166,94,171,96,162,94,156,89,150,95,147,102,145" shape="poly">
-        <area target="_self" alt="boyaca" title="Boyaca" href="pages/boyaca.html" coords="239,210,247,202,254,201,255,206,251,210,252,218,247,221,244,225,241,230,244,237,241,241,246,244,246,253,241,251,237,256,233,261,227,258,224,262,225,267,220,270,220,275,219,280,212,279,206,274,206,267,203,260,197,254,191,252,187,257,180,254,178,244,169,244,168,236,170,228,174,234,179,236,184,240,188,243,194,244,199,245,204,233,208,242,214,239,220,236,225,232,230,227,231,217,237,219" shape="poly">
-        <area target="_self" alt="amazonas" title="Amazonas" href="pages/amazonas.html" coords="173,460,180,458,188,456,194,454,200,456,206,459,213,460,218,461,223,460,229,460,237,464,241,459,245,462,249,457,253,451,259,450,263,445,269,441,274,439,280,438,285,440,290,442,292,447,294,452,300,451,306,454,311,456,316,456,315,465,315,472,318,478,325,474,327,479,334,478,339,482,344,479,344,486,343,491,342,497,341,504,340,521,337,531,335,538,333,547,326,583,318,572,309,572,300,569,306,561,323,534,314,529,306,525,297,517,288,518,283,521,276,520,268,517,261,518,256,520,252,524,243,524,235,522,229,523,219,522,219,509,210,503,206,495,202,485,193,483,186,478,178,470" shape="poly">
-        <area target="_self" alt="tolima" title="Tolima" href="pages/tolima.html" coords="163,261,162,269,160,279,157,296,163,297,169,297,170,311,163,317,162,326,153,330,144,324,136,328,135,334,129,337,125,341,116,337,117,328,119,318,124,307,131,296,136,287,140,277,142,269,149,265,154,260" shape="poly">
+        <!-- Área clickeable para Santander -->
+        <area target="_self" alt="santander" title="Santander" href="pages/santander.html" 
+              coords="195,164,198,170,198,176,204,180,210,182,216,180,223,181,226,187,226,193,227,198,232,201,237,204,238,211,238,218,231,217,231,222,230,228,226,231,222,234,217,236,214,240,208,242,205,233,202,238,201,244,196,245,189,245,183,241,179,236,173,234,172,224,186,207,176,215,182,211,193,203,191,195,191,188,194,182" 
+              shape="poly">
+        
+        <!-- Área clickeable para Antioquia -->
+        <area target="_self" alt="antioquia" title="Antioquia" href="pages/antioquia.html" 
+              coords="106,139,109,146,114,154,110,159,108,166,106,172,104,179,105,186,110,189,118,190,124,190,130,186,135,182,140,175,145,170,151,167,159,166,166,167,171,172,172,180,168,185,171,190,177,187,175,194,176,200,182,198,189,196,192,201,187,204,182,207,178,212,175,217,171,224,169,230,167,236,167,242,162,246,156,247,150,251,145,254,141,248,135,246,133,253,127,253,120,252,117,246,118,238,111,233,105,231,97,231,95,225,92,219,88,210,95,206,101,202,104,196,99,191,94,187,90,183,86,179,86,171,91,166,94,171,96,162,94,156,89,150,95,147,102,145" 
+              shape="poly">
+        
+        <!-- Área clickeable para Boyacá -->
+        <area target="_self" alt="boyaca" title="Boyaca" href="pages/boyaca.html" 
+              coords="239,210,247,202,254,201,255,206,251,210,252,218,247,221,244,225,241,230,244,237,241,241,246,244,246,253,241,251,237,256,233,261,227,258,224,262,225,267,220,270,220,275,219,280,212,279,206,274,206,267,203,260,197,254,191,252,187,257,180,254,178,244,169,244,168,236,170,228,174,234,179,236,184,240,188,243,194,244,199,245,204,233,208,242,214,239,220,236,225,232,230,227,231,217,237,219" 
+              shape="poly">
+        
+        <!-- Área clickeable para Amazonas -->
+        <area target="_self" alt="amazonas" title="Amazonas" href="pages/amazonas.html" 
+              coords="173,460,180,458,188,456,194,454,200,456,206,459,213,460,218,461,223,460,229,460,237,464,241,459,245,462,249,457,253,451,259,450,263,445,269,441,274,439,280,438,285,440,290,442,292,447,294,452,300,451,306,454,311,456,316,456,315,465,315,472,318,478,325,474,327,479,334,478,339,482,344,479,344,486,343,491,342,497,341,504,340,521,337,531,335,538,333,547,326,583,318,572,309,572,300,569,306,561,323,534,314,529,306,525,297,517,288,518,283,521,276,520,268,517,261,518,256,520,252,524,243,524,235,522,229,523,219,522,219,509,210,503,206,495,202,485,193,483,186,478,178,470" 
+              shape="poly">
+        
+        <!-- Área clickeable para Tolima -->
+        <area target="_self" alt="tolima" title="Tolima" href="pages/tolima.html" 
+              coords="163,261,162,269,160,279,157,296,163,297,169,297,170,311,163,317,162,326,153,330,144,324,136,328,135,334,129,337,125,341,116,337,117,328,119,318,124,307,131,296,136,287,140,277,142,269,149,265,154,260" 
+              shape="poly">
     </map>
 </body>
 </html>

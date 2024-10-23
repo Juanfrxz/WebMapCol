@@ -18,15 +18,15 @@ h2{
 }
 .contenedor {
     margin: 5px;
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     background-size: contain;
     background-position: center;
     padding: 10px;
     max-width: 60%;
-    border: 2px solid rgb(231, 188, 181);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
     text-align: justify;
-    box-shadow: 8px 4px 12px 0px rgba(233, 186, 233, 0.64);
+    box-shadow: 8px 4px 12px 0px rgb(0, 0, 0);
     background-position: center;
     box-sizing: content-box;
     display: block;
@@ -41,7 +41,7 @@ h2{
     height: auto;
 }
 
-.mapsan{
+.mapas{
     box-sizing: content-box;
     display: block;
     width: 30%; 
@@ -49,7 +49,7 @@ h2{
     margin: auto;
     height: auto;
 }
-
+    
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
